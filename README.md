@@ -34,15 +34,6 @@ JavaScript:
 
 For fetching data from the weather API and dynamically updating the UI.
 
-Project Structure:-
-
-.
-├── index.html               # Main HTML file
-├── style.css                # Styling for the application
-├── script.js                # JavaScript file for handling API calls and data manipulation
-├── images                   # Folder containing background images
-└── README.md                # Project documentation
-
 Getting Started:-
 
 1.Clone the repository:
