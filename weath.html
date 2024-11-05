@@ -10,22 +10,22 @@
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name" spellcheck="false">
-            <button><img src="search.png" alt="Search"></button>
+            <button><img src="Images/search.png" alt="Search"></button>
         </div> 
         <div class="weather">
-            <img src="rain.png" class="weather-icon">
+            <img src="Images/rain.png" class="weather-icon">
             <h1 class="temp">22°C</h1>
             <h2 class="city">New York</h2>
             <div class="details">
                 <div class="col">
-                    <img src="humidity.png" alt="Humidity">
+                    <img src="Images/humidity.png" alt="Humidity">
                     <div>
                         <p class="humidity">50%</p>
                         <p>Humidity</p>
                     </div>
                 </div>
                 <div class="col">
-                    <img src="wind.png" alt="Wind">
+                    <img src="Images/wind.png" alt="Wind">
                     <div>
                         <p class="wind">15 km/h</p>
                         <p>Wind Speed</p>
@@ -34,14 +34,14 @@
             </div>
             <div class="details">
                 <div class="col">
-                    <img src="sunset.jpg" alt="Sunrise">
+                    <img src="Images/sunrise.jpg" alt="Sunrise">
                     <div>
                         <p class="sunrise-data">6am</p>
                         <p>Sunrise</p>
                     </div>
                 </div>
                 <div class="col">
-                    <img src="sunrise.jpg" alt="Sunset">
+                    <img src="Images/sunset.jpg" alt="Sunset">
                     <div>
                         <p class="sunset-data">6pm</p>
                         <p>Sunset</p>
@@ -112,26 +112,26 @@
 
                 if (data.weather[0].main == "Clouds") {
                     console.log("Setting weather icon to clouds.png");
-                    weatherIcon.src = "clouds.png";
-                    cardElement.style.backgroundImage = "url('cloudy.jpg')";
+                    weatherIcon.src = "Images/clouds.png";
+                    cardElement.style.backgroundImage = "url('Images/cloudy.jpg')";
                 } else if (data.weather[0].main == "Clear") {
                     console.log("Setting weather icon to clear.png");
-                    weatherIcon.src = "clear.png";
-                    cardElement.style.backgroundImage = "url('clee.jpg')";
+                    weatherIcon.src = "Images/clear.png";
+                    cardElement.style.backgroundImage = "url('Images/clee.jpg')";
                 } else if (data.weather[0].main == "Rain") {
                     console.log("Setting weather icon to rain.png");
-                    weatherIcon.src = "rain.png";
-                    cardElement.style.backgroundImage = "url('rainy.jpg')";
+                    weatherIcon.src = "Images/rain.png";
+                    cardElement.style.backgroundImage = "url('Images/rainy.jpg')";
                 }
                 else if (data.weather[0].main == "Haze") {
                     console.log("Setting weather icon to haze.png");
-                    weatherIcon.src = "haze.png";
-                    cardElement.style.backgroundImage = "url('hazzy.jpg')";
+                    weatherIcon.src = "Images/haze.png";
+                    cardElement.style.backgroundImage = "url('Images/hazzy.jpg')";
                 }
                 else if (data.weather[0].main == "snow") {
                     console.log("Setting weather icon to snow.png");
-                    weatherIcon.src = "haze.png";
-                    cardElement.style.backgroundImage = "url('snowy.jpg')";
+                    weatherIcon.src = "Images/haze.png";
+                    cardElement.style.backgroundImage = "url('Images/snowy.jpg')";
                 }
                 // Add more conditions for other weather conditions
 
